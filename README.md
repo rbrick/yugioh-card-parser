@@ -1,5 +1,7 @@
 # yugioh-card-parser
 
+# Note: Still a WIP
+
 Parses an Yu-Gi-Oh! card description into an AST, which can then be used to do stuff! (10/10 description)
 
 # Reasoning
