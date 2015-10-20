@@ -1,11 +1,12 @@
 package me.rbrickis.cardparser.types;
 
 public enum MonsterCardType {
-    NORMAL,
     EFFECT,
-    RITUAL,
     FUSION,
+    NORMAL,
+    PENDULUM,
+    RITUAL,
     SYNCHRO,
-    XYZ,
-    PENDULUM
+    XYZ
 }
+

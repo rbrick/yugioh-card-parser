@@ -1,21 +1,20 @@
 package me.rbrickis.cardparser.types;
 
-import me.rbrickis.cardparser.EquipSpeeds;
+import me.rbrickis.cardparser.SpellSpeeds;
 
 public class Property {
 
     /**
      * Properties of spell cards
      * <p>
-     * include card speed?
      */
     public enum Spell {
-        NORMAL(EquipSpeeds.SPELL_SPEED_1),
-        CONTINUOUS(EquipSpeeds.SPELL_SPEED_1),
-        RITUAL(EquipSpeeds.SPELL_SPEED_1),
+        NORMAL(SpellSpeeds.SPELL_SPEED_1),
+        CONTINUOUS(SpellSpeeds.SPELL_SPEED_1),
+        RITUAL(SpellSpeeds.SPELL_SPEED_1),
         QUICK_PLAY,
-        FIELD(EquipSpeeds.SPELL_SPEED_1),
-        EQUIP(EquipSpeeds.SPELL_SPEED_1);
+        FIELD(SpellSpeeds.SPELL_SPEED_1),
+        EQUIP(SpellSpeeds.SPELL_SPEED_1);
 
         private int spellSpeed; // Optional
 
